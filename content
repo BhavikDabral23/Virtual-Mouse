@@ -1,0 +1,46 @@
+🖱️ Virtual Mouse Using Hand Gestures
+📌 Overview:
+The Virtual Mouse is an innovative project that replaces physical mouse actions with hand gestures using a webcam. By detecting specific finger movements and positions, users can control cursor movements and perform actions like click, drag, and scroll without touching a mouse.
+
+🧠 Technology Stack:
+Python (Programming Language)
+
+OpenCV (for image processing and camera input)
+
+Mediapipe (for real-time hand tracking)
+
+PyAutoGUI (to control the mouse using coordinates)
+
+⚙️ How It Works:
+Webcam Feed: Captures real-time video input.
+
+Hand Detection: Mediapipe detects landmarks of the hand.
+
+Cursor Movement: Index finger position controls the mouse pointer.
+
+Clicking Mechanism: Distance between fingers (e.g., thumb & index) is used to detect a click gesture.
+
+Scrolling & Dragging: Specific finger gestures are mapped to scroll or drag actions.
+
+🎯 Key Features:
+Touchless mouse control
+
+Real-time hand tracking
+
+No external hardware required except a webcam
+
+Smooth and accurate cursor movement
+
+🌟 Applications:
+Assistive technology for differently-abled individuals
+
+Touchless interaction in hygiene-sensitive environments
+
+Gesture-based human-computer interaction
+
+📁 Future Improvements:
+Add multi-hand support
+
+Increase gesture accuracy with AI models
+
+Integrate with voice commands
